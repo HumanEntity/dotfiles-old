@@ -1,9 +1,15 @@
 vim.keymap.set("n", "<leader>pf", vim.cmd.Ex)
 
 --vim.keymap.set("n", "<F10>", vim.cmd.NvimTreeToggle)
+--vim.keymap.set("n", "<F10>", vim.cmd.NeoTreeFocusToggle)
+--vim.keymap.set("n", "<F11>", vim.cmd.NeoTreeFloatToggle)
+--vim.keymap.set("n", "<F12>", vim.cmd.TagbarToggle)
+
+vim.keymap.set("n", "<F9>", vim.cmd.SidebarNvimToggle)
 vim.keymap.set("n", "<F10>", vim.cmd.NeoTreeFocusToggle)
 vim.keymap.set("n", "<F11>", vim.cmd.NeoTreeFloatToggle)
-vim.keymap.set("n", "<F12>", vim.cmd.TagbarToggle)
+vim.keymap.set("n", "<F12>", vim.cmd.DocsViewToggle)
+vim.keymap.set("n", "<leader>x", ":cd ..<CR>")
 
 vim.keymap.set("n", "<leader><down>", "<C-w>w")
 vim.keymap.set("n", "<Leader><up>", "<c-w>W")
