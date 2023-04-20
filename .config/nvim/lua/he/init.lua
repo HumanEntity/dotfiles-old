@@ -1,7 +1,4 @@
+require("he.options")
+require("he.plugins")
 require("he.remap")
-require("he.packer")
-require("he.set")
 --print("Main Conf loaded")
-
-
-
