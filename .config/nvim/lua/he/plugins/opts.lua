@@ -1,6 +1,0 @@
-
-return {
-    defaults = {
-        lazy = true,
-    }
-}

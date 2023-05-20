@@ -1,5 +1,0 @@
-
-* Hello
-  #+begin_src lua
-  print()
-  #+end_src
