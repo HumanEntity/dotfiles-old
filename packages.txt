@@ -1,0 +1,17 @@
+bat-0.23.0
+coreutils-9.1
+dwt1-shell-color-scripts-unstable-2023-03-27
+emacs-28.2
+exa-0.10.1
+fd-8.7.0
+fish-3.6.1
+fzf-0.40.0
+git-2.40.1
+neovim-0.9.0
+pandoc-2.19.2
+pfetch-0.6.0
+ripgrep-13.0.0
+starship-1.14.2
+stylua-0.17.1
+tmux-3.3a
+tokei-12.1.2

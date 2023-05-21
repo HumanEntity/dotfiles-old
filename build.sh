@@ -1,5 +1,11 @@
 #!/bin/sh
 
+if [ -f "packages.txt" ]; then
+	rm packages.txt
+fi
+packages=`nix-env -q | tr ' ' '\n'`
+printf "$packages\n" >> packages.txt
+
 if [ ! -d "config" ]; then
 	mkdir config
 fi
