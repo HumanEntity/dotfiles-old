@@ -30,6 +30,7 @@ To install scripts to your enviroment just add them to your `$PATH`. e.g.
 
 ```bash
 export PATH=$PATH:~/dev/dotfiles/scripts/
+export PATH=$PATH:~/dev/dotfiles/scripts/colorscripts/
 ```
 
 **NOTE**: `~/dev/dotfiles` is location of this repo
