@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+files=( `cat packages.txt | tr '\n' ' '` )
+
+for i in "${files[@]}"; do
+	nix-env -i $i
+done
