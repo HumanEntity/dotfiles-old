@@ -56,7 +56,7 @@ scrolling:
   multiplier: 1
   auto_scroll: true
 shell:
-  program: /Users/tomek/.nix-profile/bin/tmux
+  program: /Users/tomek/.local/state/nix/profile/bin/tmux
   args:
     - new
     - -A
