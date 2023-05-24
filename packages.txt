@@ -17,3 +17,4 @@ starship-1.14.2
 stylua-0.17.1
 tmux-3.3a
 tokei-12.1.2
+zig-0.10.1
