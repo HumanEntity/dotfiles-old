@@ -1,0 +1,8 @@
+{
+    "workspace.library": [
+        "/nix/store/34i0rdpnis00gl2vd4z5hmbil5phhqw9-neovim-unwrapped-0.9.0/share/nvim/runtime/lua",
+        "/Users/tomek/.config/nvim/lua",
+        "/Users/tomek/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/1506846c",
+        "/Users/tomek/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/20639c83"
+    ]
+}

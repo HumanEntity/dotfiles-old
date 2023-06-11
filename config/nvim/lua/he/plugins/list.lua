@@ -1,5 +1,12 @@
 return {
 	{
+		"uga-rosa/ccc.nvim",
+		lazy = false,
+		config = function()
+			require("ccc").setup({})
+		end,
+	},
+	{
 		"vimwiki/vimwiki",
 		lazy = false,
 		config = function()
@@ -12,9 +19,6 @@ return {
 			"nvim-treesitter/nvim-treesitter",
 			{
 				"akinsho/org-bullets.nvim",
-				config = function()
-					require("org-bullets").setup()
-				end,
 			},
 		},
 		config = function()
@@ -215,6 +219,7 @@ return {
 				},
 			}, -- Required
 			{ "L3MON4D3/LuaSnip" }, -- Required
+			{ "j-hui/fidget.nvim" },
 		},
 		lazy = false,
 	},
@@ -222,6 +227,20 @@ return {
 		"freddiehaddad/feline.nvim",
 		config = function()
 			require("he.plugins.config.statusline")
+		end,
+		lazy = false,
+	},
+	{
+		"folke/trouble.nvim",
+		config = function()
+			require("trouble").setup({})
+		end,
+		lazy = false,
+	},
+	{
+		"folke/todo-comments.nvim",
+		config = function()
+			require("todo-comments").setup()
 		end,
 		lazy = false,
 	},
