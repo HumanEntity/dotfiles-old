@@ -3,5 +3,5 @@
 files=( `cat packages.txt | tr '\n' ' '` )
 
 for i in "${files[@]}"; do
-	nix-env -i $i
+	nix profile install $i
 done

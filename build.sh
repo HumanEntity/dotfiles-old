@@ -3,7 +3,7 @@
 if [ -f "packages.txt" ]; then
 	rm packages.txt
 fi
-packages=`nix-env -q | tr ' ' '\n'`
+packages=`nix profile list | cut -d' ' -f2`
 printf "$packages\n" >> packages.txt
 
 if [ ! -d "config" ]; then
