@@ -68,10 +68,11 @@ cmp.setup({
 		["<C-Space>"] = cmp.mapping.complete(),
 	},
 	sources = cmp.config.sources({
+		{ name = "path" },
+		-- { name = "codeium" },
 		{ name = "nvim_lsp" },
 		{ name = "nvim_lua" },
-		{ name = "orgmode" },
-		{ name = "path" },
+		-- { name = "orgmode" },
 		{ name = "buffer" },
 		{ name = "luasnip" },
 		{ name = "crates" },

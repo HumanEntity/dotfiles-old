@@ -2,7 +2,7 @@ local lsp = require("lsp-zero").preset({})
 
 local servers = {
 	"rust_analyzer",
-	"gopls",
+	-- "gopls",
 	"clangd",
 	"lua_ls",
 	"marksman",

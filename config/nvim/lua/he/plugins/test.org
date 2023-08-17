@@ -1,7 +1,0 @@
-#+title: TEXT
-
-* Header
-  #+begin_src python
-	def main():
-		print("Hello, World!")
-  #+end_src
